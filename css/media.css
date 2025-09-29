@@ -1,0 +1,258 @@
+@media (min-width: 1601px) {
+    #container {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width:1400px) {
+    button.primary-button {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    button.secondary-button {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    .girl-image img {
+        left: 10%;
+    }
+
+    .escalthiscope img {
+        left: 0%;
+    }
+}
+
+/* Tablet view adjustments (up to 1024px) */
+@media screen and (max-width: 1024px) {
+    .header {
+        grid-template-columns: 30% 40% 30%;
+        padding: 0 20px;
+        gap: 10px;
+    }
+
+    .banner-marque-tag {
+        display: none;
+    }
+
+    .banner-wrapper {
+        grid-template-columns: 100%;
+        height: auto;
+    }
+
+    .banner-content {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .image-with-text {
+        grid-template-columns: 1fr;
+        padding: 10%;
+        margin-top: 80px;
+        height: auto;
+    }
+
+    .girl-image img {
+        position: static;
+        width: 100%;
+    }
+
+    .escalthiscope img {
+        position: static;
+        width: 100%;
+    }
+
+    .footer-contain-links {
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .product-card-wrapper,
+    .product-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-wrapper {
+        padding: 60px 20px;
+    }
+
+    form {
+        padding: 30px 20px;
+    }
+
+    .text-with-subcribe {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        grid-template-columns: 1fr auto auto auto;
+    }
+
+    .banner-text-content {
+        text-align: center;
+    }
+
+    .banner-button {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .product-card-wrapper {
+        left: 0px;
+    }
+
+    .right-arrow {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 0px;
+        justify-content: flex-start;
+    }
+
+    ul.nav-links {
+        gap: 40px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .left-arrow {
+        display: none;
+    }
+}
+
+/* Mobile view (up to 768px) */
+@media screen and (max-width: 768px) {
+    #container {
+        margin: 0px 30px;
+    }
+
+    .header {
+        grid-template-columns: 1fr auto auto auto;
+        height: 70px;
+        padding: 0px 10px;
+    }
+
+    .header-logo {
+        display: flex;
+        padding: 0%;
+        justify-content: flex-start;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    li.product-image {
+        width: 100%;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .banner-heading h2 {
+        font-size: 32px;
+    }
+
+    .product-cards {
+        width: 90%;
+    }
+
+    .user-name,
+    .phone-with-dob {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .text-newsletter h2 {
+        font-size: 28px;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        left: 0;
+        position: static;
+    }
+
+    .footer-contain-links {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+
+    .text-with-payments {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .form-sub-heading,
+    .sub-heading {
+        font-size: 12px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+}
+
+
+/* Small mobile (up to 480px) */
+@media screen and (max-width: 480px) {
+
+    .anoucement-bar {
+        font-size: 12px;
+    }
+
+    .banner-button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-heading h2 {
+        font-size: 24px;
+    }
+
+    .text-newsletter h2 {
+        font-size: 24px;
+    }
+
+    .subscribe-btn,
+    button.primary-button,
+    button.secondary-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .footer-contain-links {
+        padding: 20px;
+    }
+
+    .logo-with-text {
+        font-size: 14px;
+    }
+}

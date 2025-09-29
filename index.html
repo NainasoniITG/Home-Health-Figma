@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home health test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="anoucement-bar font-nunito-sans flex content-center">
+            <p>Welcome To ez Home Health Test</p>
+        </div>
+        <header>
+            <div class="header grid">
+                <div class="header-logo content-center flex">
+                    <a href="#"><img src="image\Home_health_test.png" alt="logo" width="100%"></a>
+                </div>
+
+                <div class="hamburger direction-column cursor-pointer font-nunito-sans" id="hamburger">
+                   <i class="fa-solid fa-bars" style="color: #000000; font-size: 18px;"></i>
+                </div>
+
+                <div class="navigation-bar">
+                    <ul class="nav-links font-nunito-sans flex">
+                        <li><a href="#">Shop</a></li>
+                        <li class="dropdown">
+                            <a href="#">Testing Services ▾</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Service 1</a></li>
+                                <li><a href="#">Service 2</a></li>
+                                <li><a href="#">Service 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-buttons flex">
+                    <button class="primary-button cursor-pointer">Register a Kit</button>
+                    <button class="secondary-button cursor-pointer">Log In</button>
+                </div>
+
+                <div class="header-icons">
+                    <ul class="header-icon flex content-center">
+                        <li class="search-icon">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.1218 17.122L21.9998 22M10.8498 2C13.2938 2 15.5068 2.99 17.1078 4.592C18.5556 6.03977 19.4567 7.94476 19.6574 9.98239C19.8581 12.02 19.3461 14.0642 18.2086 15.7667C17.0711 17.4691 15.3785 18.7245 13.4192 19.3189C11.4599 19.9133 9.35508 19.8099 7.46343 19.0264C5.57178 18.2429 4.01032 16.8277 3.0451 15.022C2.07988 13.2163 1.77062 11.1318 2.17003 9.12364C2.56943 7.11548 3.65277 5.30794 5.23548 4.00899C6.81818 2.71003 8.80231 2.00005 10.8498 2Z"
+                                        stroke="black" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="cart-icon">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 6H22L19 16H6L3 6ZM3 6L2.25 3.5M11 19.5C11 19.8978 10.842 20.2794 10.5607 20.5607C10.2794 20.842 9.89782 21 9.5 21C9.10218 21 8.72064 20.842 8.43934 20.5607C8.15804 20.2794 8 19.8978 8 19.5M17 19.5C17 19.8978 16.842 20.2794 16.5607 20.5607C16.2794 20.842 15.8978 21 15.5 21C15.1022 21 14.7206 20.842 14.4393 20.5607C14.158 20.2794 14 19.8978 14 19.5"
+                                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="sidebar" id="sidebar">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Testing Services ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="primary-button cursor-pointer">Register a Kit</button></li>
+                    <li><button class="secondary-button cursor-pointer">Log In</button></li>
+                </ul>
+            </nav>
+
+            <div class="overlay" id="overlay"></div>
+        </header>
+
+        <section class="banner-section">
+            <div class="banner-wrapper grid">
+                <div class="banner-content">
+                    <div class="banner-text-content">
+                        <div class="banner-heading font-rufina">
+                            <h2>Discrete, Fast, Premium <br>Lab & Wellness Services</h2>
+                        </div>
+                        <div class="banner-info-text font-nunito-sans">
+                            EZ Home Health Test helps place the control of your health in your own <br>hands, in the
+                            privacy
+                            of
+                            your own home. Gold Standard laboratory <br> services and leading TeleHealth providers are
+                            only a
+                            few
+                            clicks away!
+                        </div>
+                        <div class="banner-button flex">
+                            <button class="primary-button cursor-pointer font-nunito-sans">shop now</button>
+                            <button class="secondary-button cursor-pointer font-nunito-sans">Explore all test
+                                kits</button>
+                        </div>
+                    </div>
+                    <div class="product-card-wrapper flex">
+                        <ul class="product-cards cursor-pointer">
+                            <li class="product-image">
+                                <img src="image\sexual-wallness.png" alt="sexual wallness" width="100%">
+                            </li>
+                            <li class="product-info font-nunito-sans flex content-center">
+                                <p>Sexual Wellness,<br> Painless Collection</p>
+                            </li>
+                        </ul>
+                        <ul class="product-cards cursor-pointer">
+                            <li class="product-image">
+                                <img src="image\sexual-wallness-new.png" alt="sexual wallness" width="100%">
+                            </li>
+                            <li class="product-info font-nunito-sans content-center">
+                                <p>Medication Metabolism<br>(PGx)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="banner-media">
+                    <video width="100%" height="100%" autoplay muted loop>
+                        <source src="image\banner-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="banner-marque-tag">
+                <marquee class="marquee" behaviour="scroll" scrollamount="14">
+                    <div class="information-wrapper flex">
+                        <div class="information flex">
+                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.101562 26.4261C0.264296 26.2118 0.406688 25.9771 0.594457 25.7869C1.63657 24.7307 2.68651 23.6824 3.74271 22.6402C3.89371 22.4916 3.93283 22.3781 3.86085 22.1669C3.52678 21.1803 3.70438 20.2798 4.40069 19.4998C4.61349 19.2612 4.86698 19.0586 5.13299 18.8098C4.89358 18.5813 4.69251 18.3998 4.50318 18.2066C3.43055 17.112 3.41412 15.5136 4.49457 14.4308C9.03076 9.88448 13.5716 5.34282 18.1196 0.807417C19.2047 -0.274601 20.8101 -0.265995 21.8961 0.814458C24.366 3.27188 26.8305 5.73557 29.2887 8.20629C30.3996 9.32274 30.3644 10.9203 29.2175 12.0681C25.1194 16.1693 21.0182 20.2673 16.9178 24.3669C16.5173 24.7675 16.1198 25.1704 15.7161 25.5671C14.5746 26.6906 12.988 26.6851 11.8535 25.5577C11.6806 25.3856 11.5101 25.2119 11.2613 24.9615C11.0954 25.1603 10.9483 25.3645 10.7731 25.5405C9.943 26.3761 8.96504 26.6131 7.85251 26.211C7.68117 26.1492 7.60449 26.2212 7.50513 26.3213C6.44346 27.3853 5.38413 28.4517 4.31385 29.5079C4.12373 29.6949 3.88902 29.8373 3.67465 30H3.26469C3.05736 29.8459 2.82969 29.7129 2.64661 29.5345C1.94404 28.8507 1.25087 28.1575 0.567074 27.455C0.388693 27.2719 0.255689 27.0442 0.101562 26.8369C0.101562 26.7 0.101562 26.5638 0.101562 26.4269V26.4261ZM13.7923 24.7268C14.0364 24.5829 14.2953 24.4937 14.4698 24.32C18.9911 19.8135 23.5046 15.2985 28.0181 10.7834C28.4492 10.3523 28.45 9.8524 28.0173 9.41897C25.5755 6.97328 23.1322 4.52993 20.6865 2.08894C20.2507 1.65394 19.7531 1.65551 19.3221 2.08659C14.8062 6.5993 10.2919 11.1136 5.77844 15.6286C5.34814 16.0589 5.34736 16.5628 5.77219 16.9947C6.14225 17.3702 6.52013 17.7379 6.88863 18.1142C7.32206 18.5571 7.32362 19.0406 6.8941 19.4818C6.52639 19.8589 6.1485 20.2266 5.77766 20.6014C5.35048 21.0333 5.34657 21.5348 5.77531 21.9658C6.55925 22.7553 7.34631 23.5423 8.13651 24.3263C8.56759 24.755 9.06988 24.7534 9.50253 24.3278C9.87807 23.9578 10.2458 23.5799 10.6229 23.2114C11.0649 22.7787 11.5469 22.7795 11.9897 23.2129C12.373 23.5885 12.7376 23.9851 13.1351 24.3442C13.3064 24.4992 13.5411 24.5844 13.7938 24.7276L13.7923 24.7268ZM3.42977 27.7953C4.37643 26.8533 5.32545 25.909 6.25412 24.9858C5.87937 24.6095 5.48114 24.2112 5.10561 23.8341C4.17145 24.7691 3.224 25.7157 2.28672 26.6538C2.66461 27.0309 3.06283 27.4291 3.42977 27.7945V27.7953Z"
+                                    fill="white" />
+                                <path
+                                    d="M19.9983 6.65881C20.2408 6.79338 20.4833 6.87005 20.6469 7.02887C21.4676 7.8222 22.2718 8.63352 23.0738 9.4464C23.4759 9.85401 23.4689 10.3586 23.0589 10.7694C20.6109 13.2213 18.1605 15.6717 15.7077 18.119C15.2853 18.5407 14.7869 18.543 14.3636 18.1252C13.5648 17.3366 12.7715 16.5425 11.9821 15.7445C11.5612 15.3189 11.5588 14.8213 11.9782 14.4012C14.4333 11.9422 16.8891 9.48395 19.3544 7.03513C19.5155 6.87475 19.7581 6.79573 19.9983 6.65881ZM19.9881 8.91282C18.766 10.1333 17.5393 11.3601 16.3501 12.5485C16.7506 12.9483 17.1598 13.3559 17.5534 13.7494C18.7543 12.5524 19.9818 11.328 21.1937 10.1192C20.7955 9.72101 20.3902 9.31574 19.9873 8.91282H19.9881ZM13.8527 15.0427C14.2564 15.4534 14.6555 15.8603 15.024 16.235C15.4151 15.8454 15.8181 15.4448 16.1928 15.0716C15.8071 14.6867 15.4034 14.283 15.0083 13.8879C14.6304 14.265 14.2322 14.6632 13.8527 15.0427Z"
+                                    fill="white" />
+                                <path
+                                    d="M10.939 19.1634C11.4671 19.1634 11.9624 19.1619 12.4568 19.1634C13.0264 19.1658 13.416 19.521 13.4184 20.0365C13.4207 20.5513 13.0303 20.9167 12.4639 20.9191C11.694 20.9222 10.9242 20.9222 10.1543 20.9191C9.54799 20.9167 9.18497 20.5592 9.18262 19.9614C9.17871 19.1822 9.17871 18.4022 9.18262 17.6229C9.18497 17.0753 9.54642 16.6888 10.0495 16.6833C10.5674 16.677 10.9343 17.0651 10.9383 17.63C10.9414 18.126 10.9383 18.6228 10.9383 19.1634H10.939Z"
+                                    fill="white" />
+                            </svg>
+                            <h4 class="font-rufina">Unique, Painless Sample Collection</h4>
+                        </div>
+                        <div class="information flex">
+                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.8074 10.2929C30.7184 10.7817 30.6527 11.2762 30.5373 11.7587C30.1502 13.3665 29.3728 14.7682 28.2571 15.984C24.039 20.5804 19.8201 25.1768 15.6012 29.7732C15.5612 29.8173 15.5243 29.8654 15.4121 30C15.3456 29.8854 15.3103 29.7868 15.2446 29.7155C11.0481 25.1399 6.84768 20.5676 2.65043 15.992C-1.55725 11.4053 -0.411159 4.16007 5.00352 1.1626C7.15544 -0.0283732 9.45564 -0.227937 11.8352 0.242521C13.0414 0.480555 14.1706 0.928572 15.2238 1.56173C15.3961 1.66512 15.5123 1.65951 15.6806 1.55932C17.7027 0.361137 19.8995 -0.195077 22.2285 0.0613904C26.2695 0.5054 28.9496 2.74228 30.3089 6.55083C30.5413 7.20161 30.6086 7.91091 30.7529 8.59375C30.7673 8.66108 30.7881 8.7268 30.8058 8.79332V10.2929H30.8074ZM15.376 3.82105C15.1877 3.69041 14.9529 3.5205 14.7108 3.36101C12.74 2.06905 10.5761 1.53848 8.25425 1.92078C3.84701 2.64771 1.01384 7.09021 2.12948 11.4269C2.18157 11.6289 2.26011 11.7146 2.48853 11.713C4.07783 11.7018 5.66793 11.7034 7.25723 11.7114C7.464 11.7122 7.60907 11.6489 7.75494 11.5031C9.24886 9.99952 10.7492 8.50319 12.2487 7.00446C12.3233 6.92992 12.401 6.86019 12.49 6.77684C14.4768 8.76607 16.4396 10.7313 18.412 12.7061C18.4977 12.6243 18.5707 12.5578 18.6404 12.4881C19.4042 11.7251 20.1616 10.9557 20.9366 10.2039C21.0488 10.0949 21.2427 10.0139 21.399 10.0131C23.8082 10.0011 26.2174 10.0051 28.6274 10.0051C28.7428 10.0051 28.8582 10.0051 29.0209 10.0051C28.9977 9.5507 29.0025 9.14115 28.952 8.73802C28.633 6.15891 27.4204 4.11759 25.1531 2.81441C22.7839 1.45273 20.2938 1.52406 17.8181 2.51386C16.983 2.84807 16.2208 3.36261 15.3752 3.82185L15.376 3.82105ZM6.11515 17.1053C9.2689 20.5403 12.3537 23.9009 15.4506 27.2734C19.086 23.3134 22.6894 19.387 26.3464 15.403C25.4296 15.403 24.6033 15.4142 23.777 15.3966C23.486 15.3902 23.2777 15.4719 23.0701 15.6819C21.609 17.1606 20.1343 18.6265 18.6668 20.0987C18.5899 20.1757 18.541 20.2807 18.4609 20.4001C16.4268 18.3636 14.4576 16.3928 12.4699 14.4027C11.6308 15.2459 10.8037 16.0714 9.9854 16.9057C9.84034 17.054 9.69127 17.1117 9.48609 17.1093C8.50671 17.1005 7.52732 17.1053 6.54793 17.1053H6.11434H6.11515ZM3.02391 13.5059C3.11928 13.6598 3.17138 13.7664 3.24431 13.8562C3.59134 14.2817 3.93437 14.7113 4.30224 15.1185C4.39361 15.2202 4.56993 15.2964 4.70778 15.298C6.06706 15.3108 7.42714 15.3116 8.78642 15.298C8.93389 15.2964 9.11421 15.213 9.22161 15.108C10.2347 14.1134 11.2357 13.1068 12.2367 12.0993C12.3128 12.0224 12.3593 11.9166 12.4355 11.8012C14.4752 13.8409 16.4452 15.8109 18.4545 17.821C18.5314 17.7224 18.5915 17.6278 18.6692 17.5501C19.9115 16.3038 21.1594 15.0632 22.3968 13.8121C22.5515 13.6558 22.7046 13.5981 22.921 13.5989C24.471 13.6069 26.0203 13.6045 27.5703 13.5997C27.6705 13.5997 27.8211 13.5837 27.8628 13.5195C28.201 12.993 28.4719 12.4336 28.6386 11.814C28.5673 11.8084 28.528 11.8036 28.488 11.8036C26.3481 11.8036 24.2089 11.7996 22.069 11.8108C21.9408 11.8108 21.7861 11.8974 21.69 11.992C20.6721 12.9962 19.6639 14.01 18.6524 15.0207C18.5779 15.0952 18.5001 15.1657 18.4112 15.2499C16.4243 13.2623 14.4608 11.2971 12.4387 9.27419C12.3649 9.37919 12.3137 9.48097 12.2375 9.55791C10.996 10.805 9.74817 12.0456 8.50991 13.2959C8.35523 13.4522 8.20135 13.5123 7.98496 13.5107C6.45496 13.5027 4.92578 13.5067 3.39578 13.5067C3.29079 13.5067 3.1858 13.5067 3.02391 13.5067V13.5059Z"
+                                    fill="white" />
+                            </svg>
+                            <h4 class="font-rufina">Healthy Choices, Informed Decisions</h4>
+                        </div>
+                        <div class="information flex">
+                            <svg width="27" height="30" viewBox="0 0 27 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.85658 0H26.5901V29.9882C26.5072 29.9936 26.4594 29.9983 26.4125 29.9983C19.0225 29.9983 11.6317 30.0046 4.24169 29.9929C2.3756 29.9897 0.81557 28.4086 0.813222 26.5346C0.805395 18.8417 0.805397 11.1488 0.815573 3.45587C0.817138 2.33574 1.31262 1.42931 2.18774 0.729529C2.67931 0.335803 3.26168 0.155768 3.85579 0H3.85658ZM3.15366 23.1523C4.26048 22.8392 5.36808 22.977 6.46472 22.9747C12.2649 22.9614 18.0652 22.9684 23.8646 22.9684H24.2223V2.34435H23.8771C17.4225 2.34435 10.9687 2.34435 4.51409 2.34435C3.6014 2.34435 3.15288 2.79444 3.15288 3.71261C3.15288 10.0788 3.15288 16.4457 3.15288 22.8118V23.1531L3.15366 23.1523ZM24.2325 25.312C24.1041 25.312 23.9898 25.312 23.8748 25.312C17.4296 25.312 10.9851 25.312 4.53992 25.312C4.44208 25.312 4.34423 25.3088 4.24717 25.3151C3.77752 25.3464 3.36736 25.6619 3.21707 26.1049C2.94702 26.8971 3.52704 27.6548 4.41311 27.6548C10.9358 27.6563 17.4593 27.6555 23.982 27.6548C24.0658 27.6548 24.1495 27.6438 24.2325 27.6383V25.3112V25.312Z"
+                                    fill="white" />
+                                <path
+                                    d="M17.2151 9.65447C16.6969 10.1773 16.2195 10.6595 15.7584 11.1245C15.1862 10.5507 14.6438 10.0067 14.1201 9.48226C15.5299 8.07252 16.9623 6.64007 18.365 5.23816C19.7708 6.64399 21.2095 8.08269 22.6248 9.49792C22.1355 9.98792 21.5939 10.5312 21.053 11.0736C20.6068 10.622 20.1293 10.139 19.6519 9.65525C19.6268 9.66777 19.601 9.67951 19.5759 9.69204C19.5704 9.77031 19.5595 9.84859 19.5595 9.92686C19.5579 10.8153 19.5642 11.7029 19.554 12.5914C19.5517 12.7839 19.6041 12.8747 19.7888 12.9561C21.3277 13.6324 22.1809 15.2919 21.8287 16.891C21.4632 18.5505 20.0151 19.705 18.3243 19.6855C16.7071 19.6667 15.2872 18.4902 14.942 16.884C14.6 15.2911 15.4524 13.6262 16.9639 12.9647C17.1541 12.8818 17.2222 12.7925 17.2198 12.5851C17.2081 11.6294 17.2143 10.6728 17.2143 9.65447H17.2151ZM19.5579 16.1756C19.5603 15.5314 19.035 15.0023 18.3916 14.9999C17.7474 14.9976 17.2183 15.5228 17.2159 16.1662C17.2136 16.8104 17.7388 17.3396 18.3822 17.3419C19.0249 17.3443 19.5556 16.8175 19.5579 16.1748V16.1756Z"
+                                    fill="white" />
+                                <path
+                                    d="M7.84014 15.0117C7.84014 14.1718 7.84484 13.3734 7.83153 12.5758C7.82996 12.5061 7.71803 12.4114 7.63584 12.3746C6.27071 11.7601 5.45978 10.4858 5.49891 9.00248C5.5451 7.25771 6.99867 5.75169 8.75205 5.63271C10.5461 5.51061 12.1774 6.77554 12.4701 8.51482C12.7449 10.15 11.9261 11.6858 10.4076 12.3597C10.2416 12.4333 10.1767 12.5124 10.1798 12.6994C10.1923 13.4509 10.1845 14.2023 10.1845 14.9851H12.5077V17.3318H10.1994V19.6667H7.85266V17.3584H5.5177V15.0109H7.84092L7.84014 15.0117ZM10.1837 9.14572C10.1861 8.50151 9.66083 7.97237 9.0174 7.97002C8.37319 7.96767 7.84405 8.49212 7.84171 9.13633C7.83936 9.78054 8.36458 10.3097 9.00801 10.312C9.65065 10.3144 10.1814 9.78758 10.1837 9.14494V9.14572Z"
+                                    fill="white" />
+                            </svg>
+                            <h4 class="font-rufina">Gold Standard Lab and National TeleHealth Services</h4>
+                        </div>
+                    </div>
+                </marquee>
+            </div>
+        </section>
+        <section class="services">
+            <div class="image-with-text grid">
+                <div class="image-with-text-images">
+                    <div class="girl-image">
+                        <img src="image\girl.png" alt="girl image">
+                    </div>
+                    <div class="stethoscope">
+                        <img src="image\stethoscope.png" alt="stethoscope">
+                    </div>
+                </div>
+                <div class="image-with-text-content flex direction-column">
+                    <p class="content font-rufina">About us</p>
+                    <h2 class="heading font-rufina">What Makes Us Different</h2>
+                    <p class="sub-heading font-rufina">We offer cutting-edge DNA/RNA sequencing services with industry
+                        leading
+                        turnaround times. Aura
+                        Genetics provides clinicians and patients informed and actionable diagnostic results, adding
+                        precision to personalized health care and improving outcomes.</p>
+                    <div class="services">
+                        <ul class="image-with-text-services grid">
+                            <li class="services-content flex">
+                                <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.54154 16.06L17.2965 8.305L15.7565 6.765L9.54154 12.98L6.40654 9.845L4.86654 11.385L9.54154 16.06ZM11.0815 22C9.55988 22 8.12988 21.7113 6.79154 21.1338C5.45321 20.5563 4.28904 19.7725 3.29904 18.7825C2.30904 17.7925 1.52529 16.6283 0.947793 15.29C0.370293 13.9517 0.081543 12.5217 0.081543 11C0.081543 9.47833 0.370293 8.04833 0.947793 6.71C1.52529 5.37167 2.30904 4.2075 3.29904 3.2175C4.28904 2.2275 5.45321 1.44375 6.79154 0.86625C8.12988 0.28875 9.55988 0 11.0815 0C12.6032 0 14.0332 0.28875 15.3715 0.86625C16.7099 1.44375 17.874 2.2275 18.864 3.2175C19.854 4.2075 20.6378 5.37167 21.2153 6.71C21.7928 8.04833 22.0815 9.47833 22.0815 11C22.0815 12.5217 21.7928 13.9517 21.2153 15.29C20.6378 16.6283 19.854 17.7925 18.864 18.7825C17.874 19.7725 16.7099 20.5563 15.3715 21.1338C14.0332 21.7113 12.6032 22 11.0815 22ZM11.0815 19.8C13.5382 19.8 15.619 18.9475 17.324 17.2425C19.029 15.5375 19.8815 13.4567 19.8815 11C19.8815 8.54333 19.029 6.4625 17.324 4.7575C15.619 3.0525 13.5382 2.2 11.0815 2.2C8.62488 2.2 6.54404 3.0525 4.83904 4.7575C3.13404 6.4625 2.28154 8.54333 2.28154 11C2.28154 13.4567 3.13404 15.5375 4.83904 17.2425C6.54404 18.9475 8.62488 19.8 11.0815 19.8Z"
+                                        fill="#ED1C24" />
+                                </svg>
+                                <p class="sub-heading font-rufina">Easy Home Service</p>
+                            </li>
+                            <li class="services-content flex">
+                                <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.54154 16.06L17.2965 8.305L15.7565 6.765L9.54154 12.98L6.40654 9.845L4.86654 11.385L9.54154 16.06ZM11.0815 22C9.55988 22 8.12988 21.7113 6.79154 21.1338C5.45321 20.5563 4.28904 19.7725 3.29904 18.7825C2.30904 17.7925 1.52529 16.6283 0.947793 15.29C0.370293 13.9517 0.081543 12.5217 0.081543 11C0.081543 9.47833 0.370293 8.04833 0.947793 6.71C1.52529 5.37167 2.30904 4.2075 3.29904 3.2175C4.28904 2.2275 5.45321 1.44375 6.79154 0.86625C8.12988 0.28875 9.55988 0 11.0815 0C12.6032 0 14.0332 0.28875 15.3715 0.86625C16.7099 1.44375 17.874 2.2275 18.864 3.2175C19.854 4.2075 20.6378 5.37167 21.2153 6.71C21.7928 8.04833 22.0815 9.47833 22.0815 11C22.0815 12.5217 21.7928 13.9517 21.2153 15.29C20.6378 16.6283 19.854 17.7925 18.864 18.7825C17.874 19.7725 16.7099 20.5563 15.3715 21.1338C14.0332 21.7113 12.6032 22 11.0815 22ZM11.0815 19.8C13.5382 19.8 15.619 18.9475 17.324 17.2425C19.029 15.5375 19.8815 13.4567 19.8815 11C19.8815 8.54333 19.029 6.4625 17.324 4.7575C15.619 3.0525 13.5382 2.2 11.0815 2.2C8.62488 2.2 6.54404 3.0525 4.83904 4.7575C3.13404 6.4625 2.28154 8.54333 2.28154 11C2.28154 13.4567 3.13404 15.5375 4.83904 17.2425C6.54404 18.9475 8.62488 19.8 11.0815 19.8Z"
+                                        fill="#ED1C24" />
+                                </svg>
+                                <p class="sub-heading font-rufina">Pharmacy On Clinic</p>
+                            </li>
+                            <li class="services-content flex">
+                                <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.54154 16.06L17.2965 8.305L15.7565 6.765L9.54154 12.98L6.40654 9.845L4.86654 11.385L9.54154 16.06ZM11.0815 22C9.55988 22 8.12988 21.7113 6.79154 21.1338C5.45321 20.5563 4.28904 19.7725 3.29904 18.7825C2.30904 17.7925 1.52529 16.6283 0.947793 15.29C0.370293 13.9517 0.081543 12.5217 0.081543 11C0.081543 9.47833 0.370293 8.04833 0.947793 6.71C1.52529 5.37167 2.30904 4.2075 3.29904 3.2175C4.28904 2.2275 5.45321 1.44375 6.79154 0.86625C8.12988 0.28875 9.55988 0 11.0815 0C12.6032 0 14.0332 0.28875 15.3715 0.86625C16.7099 1.44375 17.874 2.2275 18.864 3.2175C19.854 4.2075 20.6378 5.37167 21.2153 6.71C21.7928 8.04833 22.0815 9.47833 22.0815 11C22.0815 12.5217 21.7928 13.9517 21.2153 15.29C20.6378 16.6283 19.854 17.7925 18.864 18.7825C17.874 19.7725 16.7099 20.5563 15.3715 21.1338C14.0332 21.7113 12.6032 22 11.0815 22ZM11.0815 19.8C13.5382 19.8 15.619 18.9475 17.324 17.2425C19.029 15.5375 19.8815 13.4567 19.8815 11C19.8815 8.54333 19.029 6.4625 17.324 4.7575C15.619 3.0525 13.5382 2.2 11.0815 2.2C8.62488 2.2 6.54404 3.0525 4.83904 4.7575C3.13404 6.4625 2.28154 8.54333 2.28154 11C2.28154 13.4567 3.13404 15.5375 4.83904 17.2425C6.54404 18.9475 8.62488 19.8 11.0815 19.8Z"
+                                        fill="#ED1C24" />
+                                </svg>
+                                <p class="sub-heading font-rufina">24/7 Medical</p>
+                            </li>
+                            <li class="services-content flex">
+                                <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.54154 16.06L17.2965 8.305L15.7565 6.765L9.54154 12.98L6.40654 9.845L4.86654 11.385L9.54154 16.06ZM11.0815 22C9.55988 22 8.12988 21.7113 6.79154 21.1338C5.45321 20.5563 4.28904 19.7725 3.29904 18.7825C2.30904 17.7925 1.52529 16.6283 0.947793 15.29C0.370293 13.9517 0.081543 12.5217 0.081543 11C0.081543 9.47833 0.370293 8.04833 0.947793 6.71C1.52529 5.37167 2.30904 4.2075 3.29904 3.2175C4.28904 2.2275 5.45321 1.44375 6.79154 0.86625C8.12988 0.28875 9.55988 0 11.0815 0C12.6032 0 14.0332 0.28875 15.3715 0.86625C16.7099 1.44375 17.874 2.2275 18.864 3.2175C19.854 4.2075 20.6378 5.37167 21.2153 6.71C21.7928 8.04833 22.0815 9.47833 22.0815 11C22.0815 12.5217 21.7928 13.9517 21.2153 15.29C20.6378 16.6283 19.854 17.7925 18.864 18.7825C17.874 19.7725 16.7099 20.5563 15.3715 21.1338C14.0332 21.7113 12.6032 22 11.0815 22ZM11.0815 19.8C13.5382 19.8 15.619 18.9475 17.324 17.2425C19.029 15.5375 19.8815 13.4567 19.8815 11C19.8815 8.54333 19.029 6.4625 17.324 4.7575C15.619 3.0525 13.5382 2.2 11.0815 2.2C8.62488 2.2 6.54404 3.0525 4.83904 4.7575C3.13404 6.4625 2.28154 8.54333 2.28154 11C2.28154 13.4567 3.13404 15.5375 4.83904 17.2425C6.54404 18.9475 8.62488 19.8 11.0815 19.8Z"
+                                        fill="#ED1C24" />
+                                </svg>
+                                <p class="sub-heading font-rufina">A Team Of Professionals</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="secondary-button cursor-pointer">Discover more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="product-wrapper">
+                <h2 class="heading font-rufina">Our <span class="center-wrd font-rufina"> Painless</span> Test Kits</h2>
+                <p class="sub-heading font-rufina">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+                <div class="product-cards-wrapper">
+                    <ul class="product-card flex content-center">
+                        <button class="left-arrow cursor-pointer"><a href="#"><svg width="13" height="22"
+                                    viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5815 21L1.58154 11L11.5815 1" stroke="black" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></a></button>
+                        <li class="product-card-inner cursor-pointer">
+                            <div class="product-card-image">
+                                <img src="image\product-card.png" alt="Sexual wallness" width="100%">
+                            </div>
+                            <div class="product-name-with-add-to-cart flex">
+                                <div class="product-name-with-price">
+                                    <p class="sub-heading font-rufina">Two Panel</p>
+                                    <p class="price font-nunito-sans flex">$119.00</p>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <button class="cursor-pointer"><svg width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 6H22L19 16H6L3 6ZM3 6L2.25 3.5M11 19.5C11 19.8978 10.842 20.2794 10.5607 20.5607C10.2794 20.842 9.89782 21 9.5 21C9.10218 21 8.72064 20.842 8.43934 20.5607C8.15804 20.2794 8 19.8978 8 19.5M17 19.5C17 19.8978 16.842 20.2794 16.5607 20.5607C16.2794 20.842 15.8978 21 15.5 21C15.1022 21 14.7206 20.842 14.4393 20.5607C14.158 20.2794 14 19.8978 14 19.5"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-card-inner cursor-pointer">
+                            <div class="product-card-image">
+                                <img src="image\product-card.png" alt="Sexual wallness" width="100%">
+                            </div>
+                            <div class="product-name-with-add-to-cart flex">
+                                <div class="product-name-with-price">
+                                    <p class="sub-heading font-rufina">Two Panel + 3 Site</p>
+                                    <p class="price font-nunito-sans flex">$189.00</p>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <button class="cursor-pointer"><svg width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 6H22L19 16H6L3 6ZM3 6L2.25 3.5M11 19.5C11 19.8978 10.842 20.2794 10.5607 20.5607C10.2794 20.842 9.89782 21 9.5 21C9.10218 21 8.72064 20.842 8.43934 20.5607C8.15804 20.2794 8 19.8978 8 19.5M17 19.5C17 19.8978 16.842 20.2794 16.5607 20.5607C16.2794 20.842 15.8978 21 15.5 21C15.1022 21 14.7206 20.842 14.4393 20.5607C14.158 20.2794 14 19.8978 14 19.5"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-card-inner cursor-pointer">
+                            <div class="product-card-image">
+                                <img src="image\product-card.png" alt="Sexual wallness" width="100%">
+                            </div>
+                            <div class="product-name-with-add-to-cart flex">
+                                <div class="product-name-with-price">
+                                    <p class="sub-heading font-rufina">Nine Panel</p>
+                                    <p class="price font-nunito-sans flex">$199.00</p>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <button class="cursor-pointer"><svg width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 6H22L19 16H6L3 6ZM3 6L2.25 3.5M11 19.5C11 19.8978 10.842 20.2794 10.5607 20.5607C10.2794 20.842 9.89782 21 9.5 21C9.10218 21 8.72064 20.842 8.43934 20.5607C8.15804 20.2794 8 19.8978 8 19.5M17 19.5C17 19.8978 16.842 20.2794 16.5607 20.5607C16.2794 20.842 15.8978 21 15.5 21C15.1022 21 14.7206 20.842 14.4393 20.5607C14.158 20.2794 14 19.8978 14 19.5"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="product-card-inner cursor-pointer">
+                            <div class="product-card-image">
+                                <img src="image\product-card.png" alt="Sexual wallness" width="100%">
+                            </div>
+                            <div class="product-name-with-add-to-cart flex">
+                                <div class="product-name-with-price">
+                                    <p class="sub-heading font-rufina">Twelve Panel</p>
+                                    <p class="price font-nunito-sans flex">$219.00</p>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <button class="cursor-pointer"><svg width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 6H22L19 16H6L3 6ZM3 6L2.25 3.5M11 19.5C11 19.8978 10.842 20.2794 10.5607 20.5607C10.2794 20.842 9.89782 21 9.5 21C9.10218 21 8.72064 20.842 8.43934 20.5607C8.15804 20.2794 8 19.8978 8 19.5M17 19.5C17 19.8978 16.842 20.2794 16.5607 20.5607C16.2794 20.842 15.8978 21 15.5 21C15.1022 21 14.7206 20.842 14.4393 20.5607C14.158 20.2794 14 19.8978 14 19.5"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </li>
+                        <button class="right-arrow cursor-pointer"><a href="#"><svg width="13" height="22"
+                                    viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.58154 21L11.5815 11L1.58154 1" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a></button>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="user-form">
+            <div class="user-data">
+                <form id="form" class="flex direction-column">
+                    <h2 class="heading font-rufina">Basic Information</h2>
+                    <div class="user-name grid">
+                        <div>
+                            <label class="sub-heading font-nunito-sans">First Name* </label>
+                            <input type="text" id="fname" name="fname"
+                                style="width:95%; height: 46px; margin-top: 10px;">
+                            <p id="error-fname" class="font-rufina"></p>
+                        </div>
+                        <div>
+                            <label class="sub-heading font-nunito-sans">Last Name* </label>
+                            <input type="text" id="lname" name="lname"
+                                style="width:95%; height: 46px;  margin-top: 10px;">
+                            <p id="error-lname" class="font-rufina"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-sub-heading font-nunito-sans">Email Address</label><br>
+                        <input type="email" id="email" name="email"
+                            style="width:100%; height: 46px;  margin-top: 10px;">
+                        <p id="error-email" class="font-rufina"></p>
+                    </div>
+                    <div class="phone-with-dob grid">
+                        <div>
+                            <label class="form-sub-heading font-nunito-sans">Phone*</label><br>
+                            <input type="tel" id="phone" name="phone"
+                                style="width:95%; height: 46px;  margin-top: 10px;">
+                            <p id="error-phone" class="font-rufina"></p>
+                        </div>
+                        <div>
+                            <label class="form-sub-heading font-nunito-sans">DOB</label><br>
+                            <input type="date" id="DOB" name="DOB" style="width:95%; height: 46px;  margin-top: 10px;">
+                            <p id="error-dob" class="font-rufina"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-sub-heading font-nunito-sans">Gender*</label><br><br>
+                        <input type="radio" id="male" name="gender"><label for="male"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">Male</label>
+                        <input type="radio" id="female" name="gender" style="margin-left: 10px;"><label for="female"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">Female</label>
+                        <input type="radio" id="other" name="gender" style="margin-left: 10px;"><label for="other"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">Other</label>
+                        <p id="error-gender" class="font-rufina"></p>
+                    </div>
+                    <div>
+                        <label class="form-sub-heading font-nunito-sans" for="hobby">Hobbies</label><br><br>
+                        <input type="checkbox" id="hobby" name="Hobby"><label for="hobby"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">
+                            Playing Cricket</label>
+                        <input type="checkbox" id="hobby1" name="Hobby" style="margin-left: 10px;"><label for="hobby1"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">
+                            Watching TV</label>
+                        <input type="checkbox" id="hobby2" name="Hobby" style="margin-left: 10px;"><label for="hobby2"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">
+                            Reading Books</label>
+                        <input type="checkbox" id="hobby3" name="Hobby" style="margin-left: 10px;"><label for="hobby3"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">
+                            Riding Bikes</label>
+                        <input type="checkbox" id="hobby4" name="Hobby" style="margin-left: 10px;"><label for="hobby4"
+                            class="form-sub-heading font-nunito-sans" style="margin-left: 10px;">
+                            Other</label>
+                        <p id="error-hobby" class="font-rufina"></p>
+                    </div>
+                    <div>
+                        <label class="form-sub-heading font-nunito-sans">Message*</label>
+                        <textarea id="Message" name="Message" placeholder="write your Message...."
+                            style="width:100%; height: 80px;  margin-top: 10px;"></textarea>
+                        <p id="error-message" class="font-rufina"></p>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="select" name="conditions"><label for="select"
+                            class="form-sub-heading font-nunito-sans" style="margin:12px 10px;">Subscribe to
+                            Newsletter</label><br>
+                        <input type="checkbox" id="Agree" name="conditions"><label for="Agree"
+                            class="form-sub-heading font-nunito-sans" style="margin:12px 10px;">Agree to
+                            Terms & Conditions</label><br>
+                        <input type="checkbox" id="offers" name="conditions"><label for="offers"
+                            class="form-sub-heading font-nunito-sans" style="margin:12px 10px;">Receive
+                            Promotional Offers</label><br>
+                        <p id="error-conditions" class="font-rufina"></p>
+                    </div>
+                    <div>
+                        <button type="submit" class="primary-button cursor-pointer">send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="text-with-subcribe grid content-center">
+                <div class="text-newsletter flex direction-column">
+                    <h2 class="font-rufina">Newsletter</h2>
+                    <p class="font-nunito-sans">Subscribe to our newsletter for latest information and special offers.
+                    </p>
+                </div>
+                <div class="email-with-subcribe-button">
+                    <input type="email" id="newsletter-email" placeholder="Email"
+                        style="width:85%; height: 50px; background-color: white; padding-left: 15px;">
+                    <button class="subscribe-btn font-nunito-sans">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-contain-links grid content-center">
+                <div class="logo-with-text flex font-nunito-sans direction-column">
+                    <div>
+                        <img src="image\footer-logo.png" alt="footer-logo">
+                    </div>
+                    <div>
+                        <p>We market at-home wellness testing kits, medication metabolism kits, and other allergy kits.
+                        </p>
+                    </div>
+                    <div class="visit-sites flex">
+                        <img src="image\Instagram.png" alt="instagram">
+                        <img src="image\facebook.png" alt="facebook">
+                        <img src="image\youtube.png" alt="youtube">
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <ul class="flex direction-column">
+                        <h4 class="font-rufina">Quick links</h4>
+                        <li class="font-nunito-sans">Testing Services</li>
+                        <li class="font-nunito-sans">Shop</li>
+                        <li class="font-nunito-sans">About Us</li>
+                        <li class="font-nunito-sans">Contact</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="flex direction-column">
+                        <h4 class="font-rufina">Information</h4>
+                        <li class="font-nunito-sans">Privacy Policy</li>
+                        <li class="font-nunito-sans">Return Policy</li>
+                        <li class="font-nunito-sans">Shipping Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="flex direction-column">
+                        <h4 class="font-rufina">My Account</h4>
+                        <li class="font-nunito-sans">View Cart</li>
+                        <li class="font-nunito-sans">Login</li>
+                        <li class="font-nunito-sans">Register</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-with-payments flex font-rufina">
+                <div>
+                    <p>Copyright © 2024 ez Home Health Test. All Rights Reserved</p>
+                </div>
+                <div>
+                    <img src="image\Payment.png" alt="Payment" width="100%">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
